@@ -9,6 +9,7 @@ print(sheet.cell(row=2,column=2).value)
 print(sheet.max_row)
 print(sheet.max_column)
 print(sheet['A5'].value)
+print("super extra")
 
 for i in range(1,sheet.max_row+1):
     if sheet.cell(row=i,column=1).value == "Testcase2":
